@@ -1,0 +1,59 @@
+[copyright]
+other = "© 2020 - 2025 Dylan Liu's Lab."
+
+[editThisPage]
+other = "Edit this page on GitHub →"
+
+[lastUpdated]
+other = "Last updated on"
+
+[backToTop]
+other = "Scroll to top"
+
+[changeLanguage]
+other = "Change language"
+
+[changeTheme]
+other = "Change theme"
+
+[copyCode]
+other = "Copy code"
+
+[dark]
+other = "Dark"
+
+[light]
+other = "Light"
+
+[noResultsFound]
+other = "No results found."
+
+[onThisPage]
+other = "On this page"
+
+[poweredBy]
+other = "Powered by Hextra"
+
+[readMore]
+other = "Read more →"
+
+[searchPlaceholder]
+other = "Search..."
+
+[docs]
+other = "Docs"
+
+[about]
+other = "About"
+
+[contact]
+other = "Contact ↗"
+
+[search]
+other = "Search"
+
+[title]
+other = "RibbonUI Documentation"
+
+[blog]
+other = "Blog"

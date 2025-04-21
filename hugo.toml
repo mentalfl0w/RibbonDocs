@@ -1,0 +1,95 @@
+baseURL = "https://doc.ourdocs.cn"
+languageCode = "en"
+DefaultContentLanguage = "en"
+title = "RibbonUI Documentation"
+theme = "hextra"
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+copyRight = "© 2020 - 2025 Dylan Liu's Lab."
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
+
+  [languages.zh-cn]
+    languageName = "简体中文"
+    weight = 1
+
+[markup]
+  # allow raw html
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+  # enable hextra syntax highlight
+  [markup.goldmark.highlight]
+    noClasses = false
+
+[[menu.main]]
+identifier = "docs"
+name = "Docs"
+pageRef = "/docs"
+weight = 1
+
+[[menu.main]]
+identifier = "blog"
+name = "Blog"
+pageRef = "/blog"
+weight = 2
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+pageRef = "/about"
+weight = 3
+
+[[menu.main]]
+identifier = "contact"
+name = "Contact ↗"
+url = "mailto:mentalflow@ourdocs.cn"
+weight = 4
+
+[[menu.main]]
+identifier = "search"
+name = "Search"
+weight = 5
+
+[menu.main.params]
+type = "search"
+
+[[menu.main]]
+name = "GitHub"
+url = "https://github.com/mentalfl0w/RibbonDocs"
+weight = 6
+
+[menu.main.params]
+icon = "github"
+
+[params]
+  [params.navbar]
+    displayTitle = true
+    displayLogo = true
+    [params.navbar.logo]
+      path = "favicon.svg"
+      dark = "favicon-dark.svg"
+      link = "/"
+      width = 40
+      height = 20
+
+  [params.footer]
+    displayCopyright = true
+    displayPoweredBy = true
+
+  [params.editURL]
+    enable = true
+    base = "https://github.com/mentalfl0w/RibbonDocs/edit/main/content"
+
+  [params.comments]
+    enable = false
+    type = "giscus"
+    [params.comments.giscus]
+        repo = "mentalfl0w/RibbonDocs"
+        repoId = "R_kgDOOc62rQ"
+        category = "Announcements"
+        categoryId = "DIC_kwDOOc62rc4CpTfQ"
